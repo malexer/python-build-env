@@ -16,6 +16,8 @@ it in a running container.
 
 One of the options is to create debs for required packages.
 
+Idea: use separate Docker image to build debs: start, build, autoremove.
+
 [Fabric](http://www.fabfile.org) will be used for automation of the whole workflow.
 
 
